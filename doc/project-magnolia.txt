@@ -1,0 +1,31 @@
+# project magnolia
+isometric game
+
+## target stage 1
+* camera rotation support
+* input support
+* sprite movable
+* audio support
+* terrain edit
+
+sw structure:
+class:
+
+RenderObject
+RenderBackend (ogl/dx/...)
+
+Terrain
+Camera
+Light
+Scene
+Event
+
+? RenderObject + lighting.
+? Scene + RenderObject structure.
+? RenderObject support multilple.
+? SDL/GLFW + Event.
+? Blender model input.
+? CubeMap.
+
+## stage final
+* isometric puzzle game
