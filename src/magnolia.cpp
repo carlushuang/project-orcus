@@ -1,6 +1,8 @@
 #include <iostream>
+#include "Application.h"
 
 int main(int argc, char ** argv){
-    std::cout<<"magnolia"<<std::endl;
+    Application app;
+    app.startMainLoop();
     return 0;
 }
