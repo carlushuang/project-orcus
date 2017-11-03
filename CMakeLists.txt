@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.2)
-project(magnolia)
+project(orcus)
 
 set(CMAKE_CXX_STANDARD 11)
 #set(CMAKE_POSITION_INDEPENDENT_CODE True)
 
-file(GLOB_RECURSE magnolia_srcs
+file(GLOB_RECURSE orcus_srcs
     src/*.cpp)
 
 
@@ -36,4 +36,4 @@ if (THREADS_FOUND)
     link_libraries(Threads::Threads)
 endif()
 
-add_executable(magnolia ${magnolia_srcs})
+add_executable(orcus ${orcus_srcs})
