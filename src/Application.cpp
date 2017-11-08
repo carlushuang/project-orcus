@@ -3,7 +3,7 @@
 #include <iostream>
 
 namespace {
-    const WindowInfo default_window_info = {.width = 1080, .height = 720, .title="magnolia", .is_full_screen=false};
+    const WindowInfo default_window_info = {1080, 720, "orcus", false};
     const int default_FPS = 60;
 }
 Application::Application():
